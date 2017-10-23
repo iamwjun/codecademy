@@ -29,7 +29,7 @@ for turn in range(4):
     guess_row = int(input("Guess row :"))
     guess_col = int(input("Guess col :"))
 
-    if guess_row == ship_row and guess_col == guess_col:
+    if guess_row == ship_row and guess_col == ship_col:
         print("猜对了")
         break
     else:
