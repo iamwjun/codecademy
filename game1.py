@@ -41,6 +41,4 @@ for turn in range(4):
             print("你猜错了")
         if turn == 3:
             print("Game Over")
-        print_board(board)
-            
-            
+        print_board(board)           
